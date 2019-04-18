@@ -1,0 +1,2 @@
+# JSPoker
+A poker simulator
