@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style/pktest.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    All Card Hand:
+    <div>
+        <div id="card7A" class="card"></div>
+        <div id="card7B" class="card"></div>
+        <div id="card7C" class="card"></div>
+        <div id="card7D" class="card"></div>
+        <div id="card7E" class="card"></div>
+        <div id="card7F" class="card"></div>
+        <div id="card7G" class="card"></div>
+    </div>
+    Best Five:
+    <div>
+        <div id="cardA" class="card">7♥</div>
+        <div id="cardB" class="card">A♠</div>
+        <div id="cardC" class="card">J♣</div>
+        <div id="cardD" class="card">10♦</div>
+        <div id="cardE" class="card">2♦</div>
+    </div>
+    <div id="info">
+        Hand Strength: <span id="handStrength"></span><br>
+        Hand Type: <span id="handType"></span><br>
+    </div>
+    <button id="btnRollNewHand">Roll New Hand</button>
+
+        <script src="PKEngine/names.js"></script>
+        <script src="PKEngine/pkengine.js"></script>
+        <script src="PKEngine/pkgame.js"></script>
+        <script src="scriptTest/test.js"></script>
+</body>
+</html>

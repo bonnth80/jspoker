@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style/pkengine.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="gameTable">
+        <div class="mfield pfield">
+            Community Cards: <br>
+            <div id="commPark" class="mfield">
+                <div class="cardPark"></div>
+                <div class="cardPark"></div>
+                <div class="cardPark"></div>
+                <div class="cardPark"></div>
+                <div class="cardPark"></div>
+            </div>    
+        </div>
+        <div id="cparkP1" class="cparkPlayer">
+            <div class="playerBet">20</div>
+            <div class="playerName">John</div>
+            <div class="playerBadge"><span style="border-radius: 24px; color: #FFF; background-color: #000;">B</span></div>
+            <div class="pCard1 cardPark">7♥</div>
+            <div class="pCard2 cardPark">A♠</div>
+            <div class="playerChipStack">1080</div>
+            <div class="playerstatus">RAISE</div>
+        </div>        
+    </div>
+
+    <div id="menuBar" class="mfield">        
+        <button id="btnNewGame">New Game</button>
+    </div>
+
+    <div id="gameMenu" class="mfield">
+        <form action="">
+            Num players: <input type="text" placeholder="Number of Players (1-8)"><br>
+            Small Blind: <input type="text" placeholder="Small Blind"><br>
+            Big Blind: <input type="text" placeholder="Big Blind"><br>
+            Ante: <input type="text" placeholder="Ante"><br>
+
+            <button>Start New Game</button>
+        </form>
+    </div>
+
+        <script src="PKEngine/names.js"></script>
+        <script src="PKEngine/pkengine.js"></script>
+        <script src="PKEngine/pkgame.js"></script>
+        <script src="script/index.js"></script>
+</body>
+</html>

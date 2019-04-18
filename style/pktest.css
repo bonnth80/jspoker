@@ -1,0 +1,111 @@
+input {
+   margin: 2px;
+}
+
+.card {
+   display: inline-block;
+   margin: auto;
+   width: 84px;
+   height: 120px;
+   background-color: white;
+   border: 1px solid black;
+   font-size: 32px;
+   border-radius: 6px;
+}
+
+.mfield {
+   margin: 8px 2px;
+   padding: 4px;
+   transition-duration: 500ms;
+   text-align: center;
+   border: 1px solid black;
+   border-radius: 6px;
+}
+
+.pfield {
+   border: 0px;
+}
+
+.cparkPlayer {
+   display: inline-block;
+   padding: 4px;
+   border: 1px solid black;
+   text-align: center;
+}
+
+.cardPark {
+   display: inline-block;
+   background-color: #66CC99;
+   border-radius: 6px;
+   height: 80px;
+   width: 50px;
+}
+
+.cardBack {
+   position: relative;
+   width: 70px;
+   height: 108px;
+   margin-top: 48px;
+   border: 1px solid black;
+   margin: auto;
+   margin-top: 5px;
+   border-radius: 4px;
+   background-color: #35377e;
+   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dbc345' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+   }
+
+.communityGroup {
+   display: inline-block;
+   margin-left: 10px;
+   margin-right: 10px;
+   text-align: center;
+}
+
+
+.playerBox {
+   display: inline-block;
+   padding: 6px;
+   border: 1px solid black;
+}
+
+#gameTable {
+   font-family: "Helvetica";
+   color: white;
+   background-color: #3c8055;
+   border: 1px solid black;
+   border-radius: 6px;
+}
+
+#commPark {
+   border: 1px solid white;
+   border-radius: 0px;
+   text-align: center;
+   display: inline-block;
+   margin: auto;
+}
+
+#commPark .cardPark {
+   display: inline-block;
+   background-color: #66CC99;
+   border-radius: 6px;
+   height: 120px;
+   width: 80px;
+}
+
+#menuBar {
+   text-align: left;
+}
+
+#cbCommunity {
+   margin: 10px;
+}
+
+#info {
+   font-size: 24px;
+}
+ 
+#gameMenu {
+   height: 124px;
+   background-color: #c4cfe0;
+   text-align: left;
+}
